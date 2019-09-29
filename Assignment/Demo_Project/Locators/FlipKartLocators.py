@@ -1,0 +1,10 @@
+class FlipKartLocator:
+    Electronics_Menu_xpath="//span[contains(text(),'Electronics')]"
+    Pixel3a_SubMenu_xpath="//a[contains(text(),'Pixel 3a | 3a XL')]"
+    FirstPhone_xpath="(//a[@rel='noopener noreferrer'])[1]"
+    AddTOCart_Button_xpath="//text()[contains(.,'ADD TO CART')]/ancestor::button"
+    AddQuantity_Button_xpath="//button[text()='+']"
+    TotalAmount_Text_xpath="//div[contains(text(),'Total Payable')]/following-sibling::span"
+    iPhoneXR_xpath= "//div[text()='Apple iPhone XR (Black, 128 GB)']"
+    SearchBox_xpath="//input[@title='Search for products, brands and more']"
+    iPhonePrice_xpath="//*[@id='price-info-icon']/parent::div/preceding-sibling::div//div[contains(text(),'₹')]"
